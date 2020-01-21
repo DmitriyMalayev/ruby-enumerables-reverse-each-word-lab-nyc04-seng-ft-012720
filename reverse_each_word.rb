@@ -12,16 +12,16 @@ reversed_string.join("")
 
 
 
-def reverse(string)
- string = string.split('')
- reversed_string = []
+# def reverse(string)
+# string = string.split('')
+# reversed_string = []
  
- string.each do |char|
-  reversed_string.unshift(char)
- end
+# string.each do |char|
+#   reversed_string.unshift(char)
+# end
  
- return reversed_string.join('')
-end
+# return reversed_string.join('')
+# end
 
 # .array = ["a", "b", "c"]
 # array.map{|string| string.upcase }
