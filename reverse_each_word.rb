@@ -16,7 +16,7 @@ def reverse_each_word(sentence1)
     return_array = [] 
     
     
-    array1.collect do |a|  a.reverse}  
+    array1.collect do |a|  a.reverse  
   end 
     return array1.join(" ")
     end    
