@@ -16,8 +16,13 @@ def reverse_each_word(sentence1)
     return_array = [] 
     
     
-    array1.collect do |a| puts a.reverse 
-    return_array << a.reverse 
+    array1.collect do |a|  a.reverse}  
   end 
-    return return_array.join(" ")
+    return array1.join(" ")
     end    
+    
+    
+    
+    
+    # #USE MAP TO TRANSFORM AN ARRAY 
+# [10, 20, 30, 40].map{|num| num * 2} #=> [20, 40, 60, 80]
