@@ -1,3 +1,3 @@
 reverse_each_word(string) do 
-string = string.join
+string = string.split(,)
 end 
