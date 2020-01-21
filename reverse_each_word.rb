@@ -7,7 +7,9 @@ sorted_member_list = new.reduce do |memo|
   memo.reverse
   end 
 
-return sorted_member_list.join(" ")
+sorted_member_list.join(" ")
+
+
 
 end
 
