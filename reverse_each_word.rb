@@ -8,7 +8,7 @@ new.each do |ok|
   puts "#{ok.reverse}"
 end 
 
-ok.join("")
+new.join("")
 
 end
 
