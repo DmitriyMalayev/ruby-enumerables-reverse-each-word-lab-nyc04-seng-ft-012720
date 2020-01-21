@@ -1,8 +1,8 @@
-def reverse_each_word(words)   
-    words.split(" ") << newWords   
-    newWords.each{|word| word.reverse}
+def reverse_each_word(sentence1)   
+    sentence1.split(" ")   
+    sentence1.each{|word| word.reverse}
     
-return newWords  
+return sentence1   
     end    
 
 
