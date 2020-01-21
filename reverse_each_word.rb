@@ -2,7 +2,7 @@
 
 def reverse_each_word(string) do 
  
- "#{string}".to_a 
+ #{string}.to_a 
  
 end
 
