@@ -10,12 +10,12 @@ def reverse_each_word(sentence1)
     end    
     
     
-    def reverse_each_word(collect)   
-    array1 = collect.split(" ")
+    def reverse_each_word(ok)   
+    array1 = ok.split(" ")
     return_array = [] 
     
     
-    array1.map do |a| puts a.reverse 
+    array1.collect do |a| puts a.reverse 
     return_array << a.reverse 
   end 
     return return_array.join(" ")
