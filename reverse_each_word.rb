@@ -1,7 +1,9 @@
 def reverse_each_word(sentence1)   
-    sentence1.split(" ")   
-    sentence1.each do |a| a.reverse 
+    sentence1 = sentence1.split(" ")   
+    reversed_string = [] 
     
+    sentence1.each do |a| a.reverse 
+    reversed_string.reverse
     end 
     
 sentence1   
@@ -10,7 +12,16 @@ sentence1
 
 
 
-
+def reverse(string)
+ string = string.split('')
+ reversed_string = []
+ 
+ string.each do |char|
+  reversed_string.unshift(char)
+ end
+ 
+ return reversed_string.join('')
+end
 
 # .array = ["a", "b", "c"]
 # array.map{|string| string.upcase }
