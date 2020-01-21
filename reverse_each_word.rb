@@ -20,3 +20,12 @@ new.join("")
 #     puts "#{oppressed_worker.capitalize} wants to start a union!"
 # end 
 
+
+
+# def sum_array(number_array) 
+#     total = 0 
+#     number_array.each{|num| total += num}
+#     total 
+# end 
+
+# sum_array([1, 2, 3]) #=> 6 
