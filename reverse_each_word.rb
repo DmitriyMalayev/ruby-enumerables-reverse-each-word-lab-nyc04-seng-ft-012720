@@ -1,7 +1,10 @@
 def reverse_each_word(words)  
-    words.split(" ").map{|ok| ok.reverse }
     
-return words 
+    newWords = []  
+    newWords = words.split(" ")  
+    newWords.map{|ok| ok.reverse }
+    
+return  
     end    
 
 
