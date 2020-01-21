@@ -1,8 +1,8 @@
-# %w[reverse_each_word(string)]
+# 
 
 def reverse_each_word(string)  
  
- "#{string}".to_a 
+ %w[reverse_each_word(string)] 
  
 end
 
