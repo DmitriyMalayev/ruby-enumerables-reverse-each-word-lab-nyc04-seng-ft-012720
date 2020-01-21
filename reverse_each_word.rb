@@ -1,8 +1,8 @@
 # 
 
 def reverse_each_word(string)  
- 
-string.split = new 
+ new = []
+new = string.split
 end
 
 reverse_each_word 
