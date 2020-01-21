@@ -6,7 +6,7 @@ def reverse_each_word(sentence1)
     reversed_string.reverse
     end 
     
-sentence1   
+reversed_string.join("")  
     end    
 
 
