@@ -2,7 +2,7 @@ def reverse_each_word(sentence1)
     sentence1.split(" ")   
     sentence1.each{|a| a.reverse}
     
-return sentence1   
+sentence1   
     end    
 
 
