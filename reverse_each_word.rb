@@ -1,11 +1,22 @@
 def reverse_each_word(words)  
-    words.split(" "). 
+    words.split(" ") 
 
     words.map  do |ok| 
         ok.reverse
       end
     
     end    
+
+
+
+
+
+
+# .array = ["a", "b", "c"]
+# array.map{|string| string.upcase }
+
+# #=>["A", "B", "C"]
+
 
 # oppressed_workers = ["Dopey", "Sneezy", "Happy", "Angry", "Doc", "Lemonjello", "Sleepy"]
 
