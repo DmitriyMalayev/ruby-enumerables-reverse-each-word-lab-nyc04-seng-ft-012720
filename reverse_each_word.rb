@@ -1,14 +1,11 @@
-def reverse_each_word(string)  
-new = [] 
-new = string.split(" ")
+def reverse_each_word(words)  
+    words.split(" "). 
 
-end
-
-new.each do |ok| 
-  puts "#{ok.reverse}"
-end 
-
-new.join("") 
+    words.map  do |ok| 
+        ok.reverse
+      end
+    
+    end    
 
 # oppressed_workers = ["Dopey", "Sneezy", "Happy", "Angry", "Doc", "Lemonjello", "Sleepy"]
 
