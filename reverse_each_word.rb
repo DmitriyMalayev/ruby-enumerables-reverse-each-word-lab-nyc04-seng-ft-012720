@@ -1,6 +1,4 @@
-def reverse_each_word(words)  
-    
-    newWords = []  
+def reverse_each_word(words)   
     newWords = words.split(" ")  
     newWords.each{|ok| puts ok.reverse }
     
