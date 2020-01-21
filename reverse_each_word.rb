@@ -2,7 +2,7 @@
 
 def reverse_each_word(string)  
  new = []
-new = string.split
+new = string.split("")
 end
 
 reverse_each_word 
