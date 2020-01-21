@@ -15,7 +15,7 @@ def reverse_each_word(sentence1)
     return_array = [] 
     
     
-    array1.collect do |a| puts a.reverse 
+    array1.map do |a| puts a.reverse 
     return_array << a.reverse 
   end 
     return return_array.join(" ")
