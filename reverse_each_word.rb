@@ -1,17 +1,15 @@
 def reverse_each_word(sentence1)   
-    sentence1 = sentence1.split(" ")   
-    
+    sentence1.split(" ")   
     sentence1.each do |a| puts a.reverse 
-    end 
+    sentence1.join(" ")  
     
-sentence1.join(" ")  
     end    
 
 
-ary = [1,2,3,4,5]
-ary.each do |i|
-   puts i
-end
+# ary = [1,2,3,4,5]
+# ary.each do |i|
+#   puts i
+# end
 
 # def reverse(string)
 # string = string.split('')
