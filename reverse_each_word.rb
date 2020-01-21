@@ -11,6 +11,5 @@ return sorted_member_list.join(" ")
 
 end
 
-new 
 
 
