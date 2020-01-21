@@ -17,7 +17,7 @@ def reverse_each_word(sentence1)
     
     
     array1.map{|a|  a.reverse}.join("")  
-  end 
+   
     return array1
     end    
     
